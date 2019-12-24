@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <fieldset>
+        <table>
+            <tbody>
+                <tr></tr>
+
+                <td>
+                    <form action="formulario1.Tratamiento" method="GET">
+                    <p>
+                        Tratamiento: * <br>
+                        <input type="radio" name="ud" value="M" required>Sr.
+                        <input type="radio" name="ud" value="F">Sra.
+                    </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.Nombre" method="GET">
+                        <p>
+                            Nombre: * <br>
+                            <input type="text" name="name" value="">
+                        </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.Apellido1" method="GET">
+                        <p>
+                            Apellido1: * <br>
+                            <input type="text" name="lastname1" value="">
+                        </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.Apellido2" method="GET">
+                        <p>
+                            Apellido2:<br>
+                            <input type="text" name="lastname2" value="">
+                        </p>
+                </td>
+
+
+
+                <tr></tr>
+
+                <td>
+                    <form action="formulario1.typdoc" method="GET">
+                    <p>
+                        Tipo Doc: * <br>
+                        <select name="menu">
+                            <option value="1" selected>DNI</option>
+                            <option value="2">NIA</option>
+                            <option value="3">NIF</option>
+                          </select>
+                    </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.Nº Doc" method="GET">
+                        <p>
+                            Nº Doc: * <br>
+                            <input type="text" name="doc" value="">
+                        </p>
+                </td>
+
+                <td>
+                    <p>
+                        Fecha de nacimiento: *<br>
+                        <input type="date" name="date">
+                    </p>
+                </td>
+
+
+
+                <tr></tr>
+
+                <td>
+                    <form action="formulario1.born" method="GET">
+                    <p>
+                        País de nacimiento: *<br>
+                        <select name="menu">
+                            <option value="0" selected>ESPAÑA</option>
+                            <option value="1">PORTUGAL</option>
+                            <option value="2">FRANCIA</option>
+                            <option value="3">ITALIA</option>
+                            <option value="4">ALEMANIA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.pais" method="GET">
+                    <p>
+                        Nacionalidad: *<br>
+                        <select name="menu">
+                            <option value="0" selected>ESPAÑOLA</option>
+                            <option value="1">PORTUGUESA</option>
+                            <option value="2">FRANCESA</option>
+                            <option value="3">ITALIANA</option>
+                            <option value="4">ALEMANA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.pais2" method="GET">
+                    <p>
+                        Segunda nacionalidad: <br>
+                        <select name="menu">
+                            <option value="0">ESPAÑOLA</option>
+                            <option value="1">PORTUGUESA</option>
+                            <option value="2">FRANCESA</option>
+                            <option value="3">ITALIANA</option>
+                            <option value="4">ALEMANA</option>
+                            <option value="5" selected>NINGUNA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="formulario1.paisres" method="GET">
+                    <p>
+                        País de residencia fiscal:* <br>
+                        <select name="menu">
+                            <option value="0" selected>ESPAÑA</option>
+                            <option value="1">PORTUGAL</option>
+                            <option value="2">FRANCIA</option>
+                            <option value="3">ITALIA</option>
+                            <option value="4">ALEMANIA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+                <tr></tr>
+
+                <td>
+                    <form action="formulario1.trbj" method="GET">
+                    <p>
+                        Trabajo:* <br>
+                        <select name="menu">
+                            <option value="0" selected>ESPAÑA</option>
+                            <option value="1">PORTUGAL</option>
+                            <option value="2">FRANCIA</option>
+                            <option value="3">ITALIA</option>
+                            <option value="4">ALEMANIA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+
+                <td>
+                    <form action="formulario1.tipoact" method="GET">
+                    <p>
+                        Tipo de actividad:* <br>
+                        <select name="menu">
+                            <option value="0" selected>ESPAÑA</option>
+                            <option value="1">PORTUGAL</option>
+                            <option value="2">FRANCIA</option>
+                            <option value="3">ITALIA</option>
+                            <option value="4">ALEMANIA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+
+                <td>
+                    <form action="formulario1.profsec" method="GET">
+                    <p>
+                        Sector profesional:* <br>
+                        <select name="menu">
+                            <option value="0" selected>ESPAÑA</option>
+                            <option value="1">PORTUGAL</option>
+                            <option value="2">FRANCIA</option>
+                            <option value="3">ITALIA</option>
+                            <option value="4">ALEMANIA</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+
+                <td>
+                    <form action="formulario1.emp" method="GET">
+                    <p>
+                        Empresa:* <br>
+                        <input type="text" name="" value="EMP">
+                    </p>
+                    </form>
+                </td>
+
+
+                <tr></tr>
+
+                <td>
+                    <form action="formulario1.cuenta" method="GET">
+                    <p>
+                        Propósito de la cuenta:* <br>
+                        <select name="menu">
+                            <option value="0" selected>Ahorro</option>
+                            <option value="1">Gastos personales</option>
+                            <option value="2">Pagos mensuales</option>
+                            <option value="3">Préstamos</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+
+                <td>
+                    <form action="formulario1.origen" method="GET">
+                    <p>
+                        Origen de sus ahorros:* <br>
+                        <select name="menu">
+                            <option value="0" selected>Nómina</option>
+                            <option value="1">Pensión</option>
+                            <option value="2">Herencia</option>
+                            <option value="3">Transferencias</option>
+                        </select>
+                    </p>
+                    </form>
+                </td>
+
+            </tbody>
+        </table>
+
+
+        <table>
+            <tbody class="a">
+                <tr></tr>
+
+                    <td>
+                       <p>Tipo de vía:* <br>
+                       <select name="formulario1.tipovia">
+                           <option value="0" selected>CALLE</option>
+                           <option value="1">AVENIDA</option>
+                           <option value="2">PASAJE</option>
+                           <option value="3">PLAZA</option>
+                       </select>
+                       </p>
+                    </td>
+
+                    <td>
+                        <form action="formulario1.direccion" method="GET">
+                        <p>
+                            Dirección:* <br>
+                            <input type="text">
+                        </p>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="formulario1.numero">
+                        <p>
+                            Número:* <br>
+                            <input type="text">
+                        </p>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="formulario1.piso">
+                        <p>
+                            Piso <br>
+                            <input type="text">
+                        </p>
+                        </form>
+                    </td>
+
+
+                <tr></tr>
+
+                    <td>
+                        <form action="formulario1.zone">
+                            <p>
+                                Urb./Pol./Otros<br>
+                                <input type="text">
+                            </p>
+                        </form>
+                    </td>
+                    <td>
+
+                        <form action="formulario1.localidad">
+                            <p>
+                                Localidad:* <br>
+                                <input type="text">
+                            </p>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="formulario1.prov">
+                            <p>
+                                Provincia:* <br>
+                                <select name="menu">
+                                    <option value="0" selected>Valéncia</option>
+                                    <option value="1">Barcelona</option>
+                                    <option value="2">Madrid</option>
+                                    <option value="3">Galicia</option>
+                                </select>
+                            </p>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="formulario1.codpod">
+                            <p>
+                                Código Postal:* <br>
+                                <input type="text">
+                            </p>
+                        </form>
+                    </td>
+
+                <tr></tr>
+
+                    <td>
+                        <form action="formulario1.telefmov">
+                            <p>
+                                Teléfono movil:* <br>
+                                <input type="text">
+                            </p>
+                        </form>
+                    </td>
+
+                    <td>
+
+                        <form action="formulario1.telefpart">
+                            <p>
+                                Teléfono particular:* <br>
+                                <input type="text">
+                            </p>
+                        </form>
+                    </td>
+
+                    <td colspan="2">
+                        <form action="formulario1.dirmail">
+                            <p>
+                                Dirección de e-mail:* <br>
+                                <input type="text">
+                            </p>
+                        </form>
+                    </td>
+
+            </tbody>
+        </table>
+
+        <hr>
+
+         <form action="formulario.aparte">
+            <p> 
+            Para ofrecérte un mejor servicio nos sería útil conocer si posee en otra entidad:<br>
+                <input type="checkbox" name="casilla0">Plan de pensiones 
+                <input type="checkbox" name="casilla1">Fondos 
+                <input type="checkbox" name="casilla2">Acciones 
+                <input type="checkbox" name="casilla3">Hipoteca 
+                <input type="checkbox" name="casilla4">Préstamo 
+                <input type="checkbox" name="casilla5">Seguro de vida 
+            </p>
+        </form>
+
+        <hr>
+        <table>
+            <tbody>
+                <tr></tr>
+
+                <td>
+                    <p class="g">
+            
+                    Puede consultar en nuestra web o solicitarnos toda la <span class="u">Información<br>
+                    Precontractual</span> de nuestros productos. Al pulsar &quot;Continuar&quot; está<br>
+                    aceptando la <span class="u">Clausula de Protección de datos.</span> <br> <br>
+                    (*) Los campos marcados con asterísco son obligatorios.
+                    </p>
+                    </td>
+                <td>
+            <button type="submit">
+            <img class="der" src="img/img_cont.PNG" alt="imagen">
+            </button>
+                </td>
+                
+            </tbody>
+        </table>
+    </fieldset>
+        
+    </main>
+    
+</body>
+</html>
